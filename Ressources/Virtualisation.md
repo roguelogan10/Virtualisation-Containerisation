@@ -1,4 +1,4 @@
-# Introduction à la virtualisation et à la containerisation
+# Introduction à la virtualisation et à la Containérisation
 
 ### virtualisatisation 
 
@@ -35,12 +35,17 @@ La solution à ces limitations est de créer une machine virtuelle à l'intérie
 
 **La virtualisation :** est le processus par lequel une version simulée d'une ressource informatique se créée. Il y a plusieurs niveau de virtualisation, allant des composants de l'ordinateur jusqu'a l'ordinateur tout entier
 
-### Containerisation
+### Containérisation
 
 **Definition:** C'est la virtualisation au niveau du système d'exploitation, c’est-à-dire qu'on simule le système d'exploitation de l'ordinateur au lieu de l'ordinateur tout entier. Dans ce cas, on ne virtualise pas le noyau du système d'exploitation(Son rôle est de faciliter les échanges entre la partie logicielle et la partie matérielle) et la partie physique de l'ordinateur, à la place on crée un espace d'utilisation virtuelle qui interagit avec le noyau de l'OS de l'ordinateur hôte non-virtuel. Cet espace d'utilisation est dynamique et est réservé aux opérations des applications.
 
-**Container:** C'est l'espace allouer pour la virtualisation de l'OS. Il fournis un environnement isole pour execute une application. Il contient generalement une application et ces dependances(tout ce dont l'application a besoins pour s'execute correctement-->code source, configurations, dependances )
-
+**Conteneur:** C'est l'espace alloué pour la virtualisation de l'OS. Il fournit un environnement isolé pour exécuter une application. Il contient généralement une application et ses dépendances (tout ce dont l'application a besoin pour s'exécuter correctement --> code source, configurations, dépendances)
+Ci-dessous une image de conteneur
 ![Alt text](https://github.com/roguelogan10/images/blob/main/docker_container.png "Docker container")
 
  
+La containerisation peut être vue aussi comme le processus d'encapsulation d'une application et de ses dépendances dans un conteneur avec son propre système d'exploitation.
+
+![Alt text](https://github.com/roguelogan10/images/blob/main/containerisation.png "Containerisation")
+
+
