@@ -1,4 +1,6 @@
-# Introduction à la virtualisation et à la conteneurisation
+# Introduction à la virtualisation et à la containerisation
+
+### virtualisatisation 
 
 **Machines physiques**: ordinateurs, smartphones etc
 **Serveurs**: Ce sont des ordinateurs spéciaux (généralement sans claviers et écrans), dont le but est de servir les autres ordinateurs (encore appelés clients) sur internet. Ils effectuent les tâches suivantes : 
@@ -32,3 +34,13 @@ La solution à ces limitations est de créer une machine virtuelle à l'intérie
 - Capable de s'adapter a l'evolution des besoins en ressources de manieres efficace et flexible.
 
 **La virtualisation :** est le processus par lequel une version simulée d'une ressource informatique se créée. Il y a plusieurs niveau de virtualisation, allant des composants de l'ordinateur jusqu'a l'ordinateur tout entier
+
+### Containerisation
+
+**Definition:** C'est la virtualisation au niveau du système d'exploitation, c’est-à-dire qu'on simule le système d'exploitation de l'ordinateur au lieu de l'ordinateur tout entier. Dans ce cas, on ne virtualise pas le noyau du système d'exploitation(Son rôle est de faciliter les échanges entre la partie logicielle et la partie matérielle) et la partie physique de l'ordinateur, à la place on crée un espace d'utilisation virtuelle qui interagit avec le noyau de l'OS de l'ordinateur hôte non-virtuel. Cet espace d'utilisation est dynamique et est réservé aux opérations des applications.
+
+**Container:** C'est l'espace allouer pour la virtualisation de l'OS. Il fournis un environnement isole pour execute une application. Il contient generalement une application et ces dependances(tout ce dont l'application a besoins pour s'execute correctement-->code source, configurations, dependances )
+
+![Alt text](https://github.com/roguelogan10/images/blob/main/docker_container.png "Docker container")
+
+ 
